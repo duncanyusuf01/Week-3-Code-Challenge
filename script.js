@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const ticketsLeft = document.getElementById("tickets-left");
     const buyTicketBtn = document.getElementById("buy-ticket");
 
-    // Example movie data (replace this with an API call)
     let movies = [
         {
             id: 1,
@@ -66,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     ];
 
-    // Load movies into the sidebar
     function loadMovies() {
         movies.forEach(movie => {
             let li = document.createElement("li");
@@ -76,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Display selected movie details
     function displayMovie(movie) {
         movieTitle.textContent = movie.title;
         movieDescription.textContent = movie.description;
@@ -86,10 +83,9 @@ document.addEventListener("DOMContentLoaded", () => {
         ticketsLeft.textContent = movie.tickets > 0 ? `${movie.tickets} remaining tickets` : "Sold Out";
         
         ticketsLeft.textContent=movie.tickets>0?
-        // Enable/Disable buy button based on availability
         buyTicketBtn.disabled = movie.tickets === 0 `${movie.tickets} remaining tickets` : "Sold Out";
         
-        // Save selected movie
+        
         buyTicketBtn.onclick = () => buyTicket(movie);
     }
     document.getElementById("buy-ticket").addEventListener("click", buyTicket);
