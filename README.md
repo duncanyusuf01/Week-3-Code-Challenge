@@ -24,3 +24,13 @@ JavaScript - Manages interactivity and DOM manipulation.
 JSON Server (Mock API) - Simulates a backend database for movie data.
 
 Git & GitHub - Used for version control and repository management.
+
+How to Use
+
+Select a Movie from the provided list.
+
+View Movie Details including the poster, description, and ticket availability.
+
+Click 'Buy Ticket' to purchase a ticket.
+
+Real-time Ticket Updates ensure that availability is accurately reflected.
