@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    //displaying a movie
     function displayMovie(movie) {
         movieTitle.textContent = movie.title;
         movieDescription.textContent = movie.description;
@@ -89,14 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
         buyTicketBtn.onclick = () => buyTicket(movie);
     }
     document.getElementById("buy-ticket").addEventListener("click", buyTicket);
-
-    // Handle ticket purchase
-    /*function buyTicket(movie) {
-        if (movie.tickets > 0) {
-            movie.tickets -= 1;
-            displayMovie(movie);
-        }
-    }*/
+//buying tickets
         function buyTicket() {
             let movie = movies.find(m => m.title === document.getElementById("movie-title").textContent);
         
