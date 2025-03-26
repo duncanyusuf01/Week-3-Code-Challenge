@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         movieTitle.textContent = movie.title;
         movieDescription.textContent = movie.description;
         moviePoster.src = movie.poster;
-        movieRuntime.textContent = `Runtime: ${movie.runtime} mins`;
+        movieRuntime.textContent = `Runtime: ${movie.runtime} minutes`;
         movieShowtime.textContent = `Showtime: ${movie.showtime}`;
         ticketsLeft.textContent = `Tickets Left: ${movie.tickets}`;
 
