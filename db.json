@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "The Electric State",
+        "runtime": 165,
+        "showtime": "04:00 PM",
+        "description": "Robot life in the wild west.",
+        "poster": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQVquUgzDq7J_Q-QKhrVn2GXkTlq59fsBCvLZ2JP1PMKxbRDGuqpHiggQQSGca5FcVohyTcJgjz_UrIxICCenLytxGxFIs-e0dKqrjVgT0ovS9A6rWO8UkcZBrjPOxYjylf65Ge2iqlXAQ5kegE2cFr9d.jpg?r=1dd",
+        "tickets": 3
+    },
+    {
+        "id": 2,
+        "title": "Black Bag",
+        "runtime": 90,
+        "showtime": "06:30 PM",
+        "description": "It takes a spy to hunt one.",
+        "poster": "https://i.ytimg.com/vi/Du0Xp8WX_7I/maxresdefault.jpg",
+        "tickets": 5
+    },
+    {
+        "id": 3,
+        "title": "Novocaine",
+        "runtime": 125,
+        "showtime": "06:30 PM",
+        "description": "The man who feels no pain.",
+        "poster": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/...",
+        "tickets": 7
+    },
+    {
+        "id": 4,
+        "title": "Inception",
+        "runtime": 148,
+        "showtime": "08:00 PM",
+        "description": "A thief who enters the dreams of others.",
+        "poster": "https://m.media-amazon.com/images/I/51oDlc-x3hL._AC_SY679_.jpg",
+        "tickets": 10
+    },
+    {
+        "id": 5,
+        "title": "Interstellar",
+        "runtime": 169,
+        "showtime": "09:30 PM",
+        "description": "A journey beyond the stars to save humanity.",
+        "poster": "https://m.media-amazon.com/images/I/91kFYg4fX3L._AC_SY679_.jpg",
+        "tickets": 8
+    },
+    {
+        "id": 6,
+        "title": "The Matrix",
+        "runtime": 136,
+        "showtime": "07:00 PM",
+        "description": "A hacker discovers the reality of his world.",
+        "poster": "https://m.media-amazon.com/images/I/51EG732BV3L.jpg",
+        "tickets": 12
+    },
+    {
+        "id": 7,
+        "title": "The Dark Knight",
+        "runtime": 152,
+        "showtime": "10:00 PM",
+        "description": "Batman faces the Joker in Gotham.",
+        "poster": "https://m.media-amazon.com/images/I/71pVz8EdFGL._AC_SY679_.jpg",
+        "tickets": 6
+    }
+]
